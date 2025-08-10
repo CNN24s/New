@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartHost — Demo Hosting Company</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="bg-dark text-white">
+    <nav class="container navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets/logo.svg" alt="logo" width="40" class="me-2">
+        <span>SmartHost Demo</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link btn btn-outline-light ms-2">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero py-5 text-center text-white" style="background-image:linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('assets/hero.jpg'); background-size:cover;">
+      <div class="container py-5">
+        <h1 class="display-5 fw-bold">Fast, Secure, Managed Hosting</h1>
+        <p class="lead mb-4">SSD storage, free SSL, daily backups, and 24/7 support — built for businesses and developers.</p>
+        <a class="btn btn-primary btn-lg" href="#pricing">View Plans</a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="container py-5">
+      <div class="text-center mb-4">
+        <h2>Our Services</h2>
+        <p class="text-muted">From shared hosting to VPS and reseller plans.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Shared Hosting</h5>
+              <p class="card-text">Beginner-friendly hosting with cPanel and 1-click installs.</p>
+              <ul class="list-unstyled">
+                <li>✅ SSD Storage</li>
+                <li>✅ Free SSL</li>
+                <li>✅ 24/7 Support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">VPS Hosting</h5>
+              <p class="card-text">Scalable VPS with full root access.</p>
+              <ul class="list-unstyled">
+                <li>✅ Dedicated Resources</li>
+                <li>✅ Snapshot Backups</li>
+                <li>✅ Global Datacenters</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Reseller Hosting</h5>
+              <p class="card-text">Brand and sell hosting under your own company.</p>
+              <ul class="list-unstyled">
+                <li>✅ WHM/cPanel</li>
+                <li>✅ Billing Integration</li>
+                <li>✅ White-label</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>Pricing Plans</h2>
+          <p class="text-muted">Pick a plan that fits your needs.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-primary">
+              <div class="card-body">
+                <h5 class="card-title">Starter</h5>
+                <h2 class="card-price">৳ 200 / mo</h2>
+                <ul>
+                  <li>10 GB SSD</li>
+                  <li>100 GB Bandwidth</li>
+                  <li>1 Website</li>
+                </ul>
+                <a class="btn btn-outline-primary" href="#contact">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-success">
+              <div class="card-body">
+                <h5 class="card-title">Business</h5>
+                <h2 class="card-price">৳ 450 / mo</h2>
+                <ul>
+                  <li>50 GB SSD</li>
+                  <li>500 GB Bandwidth</li>
+                  <li>Unlimited Websites</li>
+                </ul>
+                <a class="btn btn-success" href="#contact">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-warning">
+              <div class="card-body">
+                <h5 class="card-title">VPS</h5>
+                <h2 class="card-price">৳ 1200 / mo</h2>
+                <ul>
+                  <li>2 vCPU • 4 GB RAM</li>
+                  <li>100 GB NVMe</li>
+                  <li>Full Root Access</li>
+                </ul>
+                <a class="btn btn-warning text-dark" href="#contact">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container py-5">
+      <div class="text-center mb-4">
+        <h2>What Customers Say</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <blockquote class="blockquote">
+            <p>"Great uptime and excellent support — highly recommended."</p>
+            <footer class="blockquote-footer">— Rahim, Web Agency</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-6">
+          <blockquote class="blockquote">
+            <p>"Fast servers and helpful team. Migrated our clients with zero downtime."</p>
+            <footer class="blockquote-footer">— Nusrat, Freelancer</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-dark text-white">
+      <div class="container">
+        <h3>About SmartHost Demo</h3>
+        <p class="text-muted-light">We provide reliable hosting services with strong SLAs and a focus on customer success.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Contact Us</h4>
+          <form id="contactForm" novalidate>
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input class="form-control" id="email" type="email" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <div id="formAlert" class="mt-3" style="display:none;"></div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h4>Our Office</h4>
+          <p>Dhaka, Bangladesh<br/>support@example.com<br/>+880 1234 567890</p>
+          <img src="assets/map.jpg" alt="map" class="img-fluid rounded shadow-sm" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 bg-dark text-white">
+    <div class="container text-center small">
+      © 2025 SmartHost Demo · Built with Bootstrap
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
